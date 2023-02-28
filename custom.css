@@ -1,8 +1,12 @@
 body, html {
     height: 100%;
+    background-color: #dbe0f5;
+    margin-left: 20px;
+    margin-right: 20px;
+    
   }
 
-  h1 {
+  h1 h2 h3 h4 h5 h6 {
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -65,4 +69,86 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+
+  .container{
+    width: 400px;
+  }
+  .addtxt{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+    width: 350px;
+    background-color: #e5e8ed;
+    font-weight: 500;
+  }
+ 
+  .second{
+    width: 350px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  .text1{
+    font-size: 13px;
+      font-weight: 500;
+      color: #56575b;
+  }
+  .text2{
+    font-size: 13px;
+      font-weight: 500;
+      margin-left: 6px;
+      color: #56575b;
+  }
+  .text3{
+    font-size: 13px;
+      font-weight: 500;
+      margin-right: 4px;
+      color: #828386;
+  }
+  .text3o{
+    color: #00a5f4;
+  
+  }
+  .text4{
+    font-size: 13px;
+      font-weight: 500;
+      color: #828386;
+  }
+  .text5{
+    font-size: 10px;
+      font-weight: 500;
+      color: #56575b;
+  }
+  .text4i{
+    color: #00a5f4;
+  }
+  .text4o{
+    color: white;
+  }
+  .thumbup{
+    font-size: 13px;
+      font-weight: 500;
+      margin-right: 5px;
+  }
+  .thumbupo{
+    color: #17a2b8;
+  }
+
+  .container-presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
   }
